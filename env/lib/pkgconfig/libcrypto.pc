@@ -1,4 +1,4 @@
-prefix=/Users/pandeya/MEGA/python/sample-management/sample-management
+prefix=/Users/pandeya/MEGA/python/sample-management/env
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
