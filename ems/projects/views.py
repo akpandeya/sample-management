@@ -2,5 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the projects' index.")
+    context = {"name": "Avanindra",
+               "number": 5,
+    }
+    return render(request, "projects/index.html", context=context)
 
