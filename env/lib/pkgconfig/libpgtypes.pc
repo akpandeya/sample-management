@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.2
+Requires: 
+Requires.private: 
+Cflags: -I/Users/pandeya/MEGA/python/sample-management/env/include
+Libs: -L/Users/pandeya/MEGA/python/sample-management/env/lib -lpgtypes
+Libs.private: -L/Users/pandeya/MEGA/python/sample-management/env/lib -lm
